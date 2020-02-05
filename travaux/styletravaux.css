@@ -193,7 +193,7 @@ a:hover {
 }
 
 .vignettes:hover {
-  margin-top:1.5%;
+  margin-top: 1.5%;
   transition: 0.1s;
 }
 
@@ -251,4 +251,90 @@ a:hover {
   left: 80%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+#reseaux {
+  font-family: Gravity-Regular;
+  width: 100%;
+  height: 35%;
+  position: relative;
+  margin: 0;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#reseaux h2 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#reseaux ul {
+  padding: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#reseaux ul li {
+  display: inline;
+}
+
+#reseaux li {
+  list-style-type: none;
+}
+
+#reseaux li img {
+  width: 12%;
+  padding: 15px;
+}
+
+#reseaux li img:hover {
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+footer {
+  font-family: Gravity-Regular;
+  height: 7.5%;
+  width: 100%;
+  background-color: black;
+}
+
+footer div {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  border-bottom: 2px solid white;
+  transition: 0.2s;
 }
