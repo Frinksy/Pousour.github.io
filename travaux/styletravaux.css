@@ -1,6 +1,6 @@
 @font-face {
   font-family: Gravity-Regular;
-  src: url("polices/Gravity-Regular.otf");
+  src: url("Gravity-Regular.otf");
 }
 
 html {
@@ -22,9 +22,8 @@ body {
 header {
   width: 100%;
   height: 100vh;
-  background: url(nature.jpg) no-repeat 50% 50%;
-  background-size: cover;
   font-family: Gravity-Regular;
+  background-color: black;
 }
 
 .content {
@@ -125,7 +124,6 @@ nav ul li a {
 }
 
 #root {
-  background-color: black;
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -176,108 +174,81 @@ nav a:hover {
   border-bottom: 2px solid white;
 }
 
-#competences {
-  font-family: Gravity-Regular;
+a {
+  transition: 0.2s;
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.vignettes {
+  width: 15vw;
+  height: 55vh;
+  background-color: white;
+  position: absolute;
+  border-radius: 20px;
+  transition: 0.1s;
+}
+
+.vignettes:hover {
+  margin-top:1.5%;
+  transition: 0.1s;
+}
+
+.texte {
+  height: 20%;
+  position: relative;
+}
+
+.texte p {
+  height: 100%;
+  line-height: 11vh;
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.image {
+  width: 100%;
+  height: 80%;
+  background-color: black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+
+.vignettes img {
+  background-size: cover;
+  opacity: 0.9;
   width: 100%;
   height: 100%;
-  background-color: black;
-  opacity: 0.9;
-  position: relative;
-  margin: 0;
 }
 
-#textCompetences {
-  letter-spacing: 2px;
-  margin-left: 8%;
-  top: 12%;
-  position: relative;
-  width: 40%;
-  color: aliceblue;
-  font-size: 1vw;
-}
-
-#textCompetences p {
-  margin-top: 5%;
-  letter-spacing: 1px;
-  font-size: 1vw;
-}
-
-#textCompetences h1 {
-  font-size: 2.2vw;
-}
-
-#textCompetences h2 {
-  margin-top: 10%;
-  font-size: 1.6vw;
-}
-
-#languages {
-  position: absolute;
-  width: 70%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 22vh;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  left: 50%;
-}
-
-#languages2 {
-  position: absolute;
-  width: 70%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 39vh;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  left: 50%;
-}
-
-.logoLanguages {
-  width: 5.2vw;
-  height: auto;
-}
-
-#container {
-  width: 21vw;
-  height: 21vw;
-  position: relative;
-  overflow: hidden;
-  border-radius: 21vw;
-  margin: 0;
-  position: absolute;
+#un {
   top: 50%;
-  left: 30%;
+  left: 20%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#moi {
-  width: 21vw;
-  height: auto;
-  opacity: 1;
-}
-
-i {
-  border: solid white;
-  border-width: 0 5px 5px 0;
-  display: inline-block;
-  padding: 12px;
-  top: 90%;
-  left: 50%;
+#deux {
+  top: 50%;
+  left: 40%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  position: absolute;
-  transition: 0.3s;
 }
 
-i:hover {
-  top: 89.6%;
-  transition: 0.3s;
+#trois {
+  top: 50%;
+  left: 60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+#quatre {
+  top: 50%;
+  left: 80%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
