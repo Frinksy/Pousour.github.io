@@ -24,6 +24,7 @@ header {
   height: 100vh;
   background: url(nature.jpg) no-repeat 50% 50%;
   background-size: cover;
+  font-family: Gravity-Regular;
 }
 
 .content {
@@ -163,16 +164,16 @@ nav a {
   color: azure;
   margin-left: 6%;
   padding: 10px;
+  padding-bottom: 2px;
   transition: 0.3s;
-  border-radius: 5px;
+  border-bottom: 2px solid transparent;
 }
 
 nav a:hover {
   color: #fff;
   text-decoration: none;
-  background-color: rgba(36, 36, 36, 0.5);
   transition: 0.3s;
-  border-radius: 5px;
+  border-bottom: 2px solid white;
 }
 
 #competences {
@@ -249,10 +250,34 @@ nav a:hover {
   left: 30%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #moi {
   width: 21vw;
   height: auto;
   opacity: 1;
+}
+
+i {
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 12px;
+  top: 90%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  transition: 0.3s;
+}
+
+i:hover {
+  top: 89.6%;
+  transition: 0.3s;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
