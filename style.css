@@ -23,9 +23,15 @@ header {
   width: 100%;
   height: 100vh;
   background-color: black;
-  background-image: url(nature.jpg);
   background-size: cover;
   font-family: Gravity-Regular;
+}
+
+#bg {
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.7;
 }
 
 .content {
@@ -69,6 +75,8 @@ nav.black ul {
 nav ul li {
   display: inline-block;
   padding: 20px;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 nav ul li a {
@@ -237,6 +245,7 @@ nav a:hover {
 .logoLanguages {
   width: 5.2vw;
   height: auto;
+  min-width: 80px;
 }
 
 #container {
@@ -319,8 +328,9 @@ i:hover {
 }
 
 #reseaux li img {
-  width: 12%;
+  width: 4.2vw;
   padding: 15px;
+  min-width: 60px;
 }
 
 #reseaux li img:hover {
@@ -351,8 +361,8 @@ footer ul {
 
 footer ul li {
   display: inline;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 footer ul li a {

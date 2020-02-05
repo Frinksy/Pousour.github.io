@@ -67,6 +67,8 @@ nav.black ul {
 nav ul li {
   display: inline-block;
   padding: 20px;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 nav ul li a {
@@ -289,8 +291,9 @@ a:hover {
 }
 
 #reseaux li img {
-  width: 12%;
+  width: 4.2vw;
   padding: 15px;
+  min-width: 60px;
 }
 
 #reseaux li img:hover {
@@ -321,8 +324,8 @@ footer ul {
 
 footer ul li {
   display: inline;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 footer ul li a {
