@@ -66,9 +66,7 @@ nav.black ul {
 
 nav ul li {
   display: inline-block;
-  padding: 20px;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding: 20px 6vw 20px 6vw;
 }
 
 nav ul li a {
@@ -173,7 +171,7 @@ nav a:hover {
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
-  border-bottom: 2px solid white;
+  opacity: 0.8;
 }
 
 a {
@@ -324,8 +322,8 @@ footer ul {
 
 footer ul li {
   display: inline;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  color: white;
+  padding: 10px 6vw 2px 6vw;
 }
 
 footer ul li a {
@@ -335,9 +333,68 @@ footer ul li a {
 }
 
 footer a:hover {
-  color: #fff;
   text-decoration: none;
-  transition: 0.3s;
-  border-bottom: 2px solid white;
+  color: #fff;
+  font-size: 20px;
+  opacity: 0.8;
   transition: 0.2s;
+}
+
+form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+form input {
+  width: 30vw;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  min-width: 300px;
+}
+
+form input:focus {
+  box-shadow: 0 0 5px rgb(0, 123, 255);
+  border-color: rgb(0, 123, 255);
+}
+
+form textarea {
+  width: 30vw;
+  height: 15vh;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  min-width: 300px;
+  min-height: 150px;
+}
+
+form textarea:focus {
+  box-shadow: 0 0 5px rgb(0, 123, 255);
+  border-color: rgb(0, 123, 255);
+}
+
+#bouton {
+  position: absolute;
+  width: 6vw;
+  min-width: 100px;
+  top: 100%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+form ul {
+  padding: 0;
+}
+
+form li {
+  list-style-type: none;
+}
+
+#email {
+  user-select: none;
 }
