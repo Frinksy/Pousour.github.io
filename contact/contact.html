@@ -39,26 +39,26 @@
               <li>
                 <label>
                   Vôtre nom:</br>
-                  <input type="text" name="name" />
+                  <input type="text" name="name" class="formulaire" required/>
                 </label>
               </li>
               <li>
                 <label>
-                  Envoyer à:</br>
-                  <input type="email" name="_replyto" placeholder="ponsemilien@gmail.com" readonly/>
+                  Vôtre e-mail:</br>
+                  <input type="email" name="_replyto" value=""/>
                 </label>
               </li>
               <li>
                 <label>
                   Message:</br>
-                  <textarea name="message"></textarea>
+                  <textarea name="message" class="formulaire" required></textarea>
                 </label>
               </li>
               <li><input type="submit" value="Envoyer" id="bouton" class="btn btn-outline-success"/></li>
             </ul>
-
-
           </form>
+
+          <p>Ce formulaire sera envoyé à l'adresse suivante: ponsemilien@gmail.com</p>
         </header>
 
         <div id="reseaux">
@@ -83,7 +83,7 @@
               </a>
             </li>
             <li>
-              <a href="contact/contact.html" target="_blank">
+              <a href="contact.html" target="_blank">
                 <img src="email.png" alt="email" />
               </a>
             </li>
@@ -98,7 +98,7 @@
         <footer>
           <div>
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="../index.html">Home</a></li>
               <li>|</li>
               <li><a href="../travaux/travaux.html">Travaux</a></li>
               <li>|</li>
