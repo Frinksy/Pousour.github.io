@@ -12,37 +12,45 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="icon" type="image/png" href="moi.jpg" />
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="code.js"></script>
+    <title>Emilien Pons</title>
   </head>
   <body>
     <div id="root">
       <div class="wrapper">
         <header>
           <nav>
-            <div class="logo">LOGO</div>
             <div class="menu">
               <ul>
-                <li><a href="#competences">Moi</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacte</a></li>
+                <li><a href="#">Home</a></li>
+                <li>|</li>
+                <li><a href="travaux/travaux.html">Travaux</a></li>
+                <li>|</li>
+                <li><a href="contact/contact.html">Contact</a></li>
               </ul>
             </div>
           </nav>
+          <img src="nature.jpg" id="bg">
         </header>
 
           <div id="home">
             <h1>Emilien Pons</h1>
-            <h2>Fullstack Developer</h2>
+            <h2>Étudiant en DUT MMI</h2>
           </div>
+
+        <a href="#competences">
+          <i class="down" id="down"></i>
+        </a>
 
           <div id="container">
             <img src="moi.jpg" id="moi" alt="me" />
           </div>
+
           <div id="competences">
             <div id="textCompetences">
-              <h1>Mes Compétences</h1>
+              <h1>Qui suis-je?</h1>
               <p>
                 Je suis actuellement en première année de DUT MMI. Nous
                 travaillons principalement sur le côté front-end des pages web.
@@ -67,6 +75,49 @@
               <div><img src="html.png" alt="html" class="logoLanguages" /></div>
             </div>
           </div>
+
+          <div id="reseaux">
+            <h2>RESTE CONNECTÉ</h2>
+            <ul>
+              <li>
+                <a href="https://www.youtube.com/channel/UC9Zo5xvVn-R0GmF2kHkNn2A?view_as=subscriber" target="_blank">
+                  <img src="youtube.png" alt="youtube">
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/Pousour" target="_blank">
+                  <img src="twitter.png" alt="twitter">
+                </a>
+              </li>
+              <li>
+                <a href="https://discord.gg/UVSRqh3" target="_blank">
+                  <img src="discord.png" alt="discord">
+                </a>
+              </li>
+              <li>
+                <a href="contact/contact.html" target="_blank">
+                  <img src="email.png" alt="email">
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Pousour" target="_blank">
+                  <img src="github.png" alt="github">
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <footer>
+            <div>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li>|</li>
+                <li><a href="travaux/travaux.html">Travaux</a></li>
+                <li>|</li>
+                <li><a href="contact/contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </footer>
         </div>
       </div>
     </div>
